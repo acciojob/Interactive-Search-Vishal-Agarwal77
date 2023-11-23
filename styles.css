@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+*{
+	padding:0;
+	margin:0;
+	background:#785CF1;
+}
+.search{
+	margin:200px auto 0px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	gap:5px;
+/* 	border:2px solid red; */
+	background:white;
+	width:max-content;
+	height:5vh;
+}
+.input{
+	background:white;
+	border:none;
+	height:100%;
+	width:100%;
+	padding-left:10px;
+}
+.btn{
+	padding-right:5px;
+	border:2px solid green;
+	height:100%;
+	border:none;
+	background:white ;
+}
+i{
+	background:white;
+}
+.active{
+	height:7vh;
+	width:35vw;
+/* 	border:2px solid green; */
+}
+.active .input{
+/* 	width:100%; */
+	font-size:1rem;
+}
